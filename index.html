@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <!-- displays site properly based on user's device -->
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="./images/favicon-32x32.png"
+  >
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+    rel="stylesheet"
+  >
+  <script
+    src="/index.js"
+    defer
+    type="module"
+  ></script>
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+
+<body>
+
+  <main>
+    <section class="chart-container flex-column gap-400">
+      <div class="header flex-space-between align-items-center">
+        <div class="flex-column gap-200">
+          <p class="font-weight-400">My balance</p>
+          <p class="font-weight-700 font-size-600">$<span>921.48</span></p>
+        </div>
+        <div>
+          <img
+            src="./images/logo.svg"
+            class="chart__img"
+            alt="Logo"
+          >
+        </div>
+      </div>
+      <div class="chart">
+        <h1 class="font-size-600">Spending - Last 7 days</h1>
+        <div
+          class="bar-container"
+          id="bar-container"
+        >
+        </div>
+        <div class="flex-space-between padding-block-start-600">
+          <div class="flex-column">
+            <p class="color-medium-brown font-weight-400">Total this month</p>
+            <p class="font-weight-700 font-size-900">$<span>478.33</span></p>
+          </div>
+          <div class="flex-column margin-block-end-150">
+            <p class="font-weight-700 margin-inline-start-auto">+2.4%</p>
+            <p class="color-medium-brown">from last month</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+
+
+  <!-- <div class="attribution">
+    Challenge by <a
+      href="https://www.frontendmentor.io?ref=challenge"
+      target="_blank"
+    >Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
